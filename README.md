@@ -24,10 +24,10 @@ MongoDB database (local or cloud, e.g., MongoDB Atlas).
 A package manager (npm or yarn).
 Backend Setup
 Navigate to the server folder
-### 'cd server'  
+### `cd server` 
 Install backend dependencies
 
-### 'npm install'  
+### `npm install`  
 Set up MongoDB
 
 Create a MongoDB database (local or use MongoDB Atlas).
@@ -47,18 +47,16 @@ Replace Your Connection String in the server.js file with your MongoDB connectio
 
 Run the backend server
 
-### 'node server.js'  
-The server will run on http://localhost:5000.
+### `node server.js`  
 
 Frontend Setup
 Navigate back from src folder
   
 Install frontend dependencies
-### 'npm install' 
+### `npm install` 
 Start the React app
 
-###'npm start'  
-The React app will run on http://localhost:3000.
+### `npm start`  
 
 ## How Each Part Works
 ### Frontend
