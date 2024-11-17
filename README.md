@@ -1,3 +1,84 @@
+# Contact Management Application
+
+This is a Contact Management Application built with React.js for the frontend and Node.js with Express.js for the backend. It provides a user-friendly interface to create, retrieve, update, and delete contact details, with MongoDB as the database.
+
+The app demonstrates a full-stack implementation of a contact management system. MongoDB - atlas was chosen for its flexible schema structure, which fits dynamic and evolving data requirements like contact management.
+# Features
+## Frontend (React.js):
+
+A responsive interface to interact with the contact database.
+Forms for adding or editing contact details.
+Display a list of all contacts with editing and deleting options.
+Backend (Node.js + Express.js):
+
+API endpoints for CRUD operations.
+Error handling and status codes for reliable communication with the frontend.
+Database (MongoDB-atlas):
+
+Stores all contact details with fields for first name, last name, email, phone, company, and job title.
+
+## Setup Instructions
+### Prerequisites
+Node.js installed.
+MongoDB database (local or cloud, e.g., MongoDB Atlas).
+A package manager (npm or yarn).
+Backend Setup
+Navigate to the server folder
+### 'cd server'  
+Install backend dependencies
+
+### 'npm install'  
+Set up MongoDB
+
+Create a MongoDB database (local or use MongoDB Atlas).
+Use the following schema for your contacts collection:
+json
+Copy code
+{  
+  "firstName": "String",  
+  "lastName": "String",  
+  "email": "String",  
+  "phone": "String",  
+  "company": "String",  
+  "jobTitle": "String"  
+}  
+Update the MongoDB connection string
+Replace Your Connection String in the server.js file with your MongoDB connection string.
+
+Run the backend server
+
+### 'node server.js'  
+The server will run on http://localhost:5000.
+
+Frontend Setup
+Navigate back from src folder
+  
+Install frontend dependencies
+### 'npm install' 
+Start the React app
+
+###'npm start'  
+The React app will run on http://localhost:3000.
+
+## How Each Part Works
+### Frontend
+#### React Components:
+ContactList: Displays all contacts retrieved from the backend.
+ContactForm: Form for adding or editing contacts.
+API Integration: Axios or Fetch is used to make API calls to the backend.
+Backend
+### Routes:
+POST /contacts - Add a new contact.
+GET /contacts - Retrieve all contacts.
+PUT /contacts/:id - Update contact details by ID.
+DELETE /contacts/:id - Remove a contact by ID.
+### Database
+MongoDB: A NoSQL database stores the contact data in a flexible schema.
+Major Technical Decisions
+React.js: For creating a dynamic and responsive user interface.
+Node.js with Express.js: Simplifies building RESTful APIs.
+MongoDB: Fits this app due to its schema-less nature, allowing quick iterations and adaptability.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
