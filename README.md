@@ -21,6 +21,8 @@ Backend (Node.js + Express.js):
 
 API endpoints for CRUD operations.
 Error handling and status codes for reliable communication with the frontend.
+![Screenshot 2024-11-17 123538](https://github.com/user-attachments/assets/64cf48c3-a4ef-4a32-b814-78f2ed2e318c)
+
 Database (MongoDB-atlas):
 
 Stores all contact details with fields for first name, last name, email, phone, company, and job title.
