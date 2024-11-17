@@ -1,6 +1,6 @@
 # Contact Management Application
 
-This is a Contact Management Application built with React.js for the frontend and Node.js with Express.js for the backend. It provides a user-friendly interface to create, retrieve, update, and delete contact details, with MongoDB as the database.
+This is a Contact Management Application built with React.js for the frontend and Node.js with Express.js for the backend. It provides a user-friendly interface to create, retrieve, update and delete contact details, with MongoDB as the database.
 
 The app demonstrates a full-stack implementation of a contact management system. MongoDB - atlas was chosen for its flexible schema structure, which fits dynamic and evolving data requirements like contact management.
 ![Screenshot 2024-11-17 122735](https://github.com/user-attachments/assets/216f2e47-c7b5-4039-b108-bb8f3ad0719f)
@@ -17,15 +17,15 @@ Forms for adding or editing contact details.
 Display a list of all contacts with editing and deleting options.
 ![Screenshot 2024-11-17 123356](https://github.com/user-attachments/assets/901aeaf6-110c-47a3-a140-5bfd8bddf3f0)
 
-Backend (Node.js + Express.js):
+## Backend (Node.js + Express.js):
 
 API endpoints for CRUD operations.
 Error handling and status codes for reliable communication with the frontend.
 ![Screenshot 2024-11-17 123538](https://github.com/user-attachments/assets/64cf48c3-a4ef-4a32-b814-78f2ed2e318c)
 
-Database (MongoDB-atlas):
+## Database (MongoDB-atlas):
 
-Stores all contact details with fields for first name, last name, email, phone, company, and job title.
+Stores all contact details with fields for first name, last name, email, phone, company and job title.
 
 ## Setup Instructions
 ### Prerequisites
